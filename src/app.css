@@ -1,0 +1,46 @@
+.actions span{
+  padding-left: 3px;
+  padding-right: 3px;
+  cursor: pointer;
+}
+.addNew{
+  border: 1px solid #ccc;
+}
+.addNew label{
+  display: block;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.addNew input{
+  width: 100%;
+  border: none;
+  outline: none;
+  height: 100%;
+}
+.addNew .button{
+  cursor: pointer;
+  display: block;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.addNew .button:hover{
+  color: #fff;
+}
+.addNew .button2{
+  cursor: pointer;
+  display: block;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.addNew .button2:hover{
+  color: #fff;
+}
+.done{
+  background: #7ed881;
+  text-decoration: line-through;
+}
